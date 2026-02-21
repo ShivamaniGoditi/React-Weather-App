@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.App {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(2, 2, 42), rgb(36, 36, 133));
+  border-radius: 10px;
+}
+
+.weatherApp {
+  height: 300px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, rgb(108, 108, 208), rgb(30, 30, 211));
+  border-radius: 10px;
+  box-shadow: black;
+}
+
+.city-search {
+  width: 80%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.city {
+  font-size: medium;
+  background-color: bisque;
+  color: black;
+  border-radius: 8px;
+  padding: 5px;
+  font-weight: 700;
+}
+.city-name {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-temp {
+  display: flex;
+  justify-content: center;
+}
+
+.degree {
+  display: flex;
+  justify-content: center;
+}
+
+.des-wind {
+  display: flex;
+  justify-content: center;
+}
+.wind {
+  display: flex;
+  justify-content: center;
+}
