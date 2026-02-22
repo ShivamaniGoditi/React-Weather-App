@@ -32,6 +32,7 @@ const App = () => {
     return date;
   };
 
+  const apiKey = import.meta.env.VITE_API_KEY;
   const search = (e) => {
     if (e.key == "Enter") {
       (setInput(""),
@@ -41,7 +42,7 @@ const App = () => {
             params: {
               q: Input,
               units: "metric",
-              appid: "828abe8c0640c73bc6135605f70cd604",
+              appid: apiKey,
             },
           })
           .then((res) => {
